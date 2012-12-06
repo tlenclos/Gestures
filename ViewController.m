@@ -23,6 +23,7 @@
     UIGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
     [self.view addGestureRecognizer:tap];
     
+    
     // Create LONGPRESS gesture recognizer
     UIGestureRecognizer *longpress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongpress:)];
     [self.view addGestureRecognizer:longpress];
